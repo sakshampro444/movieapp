@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    padding: 12px;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    font-family:'Times New Roman', Times, serif
+}
+.img{
+    /* border: 2px solid blue; */
+    overflow: hidden;
+
+}
+.img img{
+    padding: 12px;
+    margin-top: 12px;
+    gap: 12px;
+}
+p{
+    padding: 15px;
+    margin: 12px;
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.links{
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    margin: 12px;
+    padding: 10px;
+}
+
+.music{
+    color: red;
+    text-decoration: solid;
+}
+.flower{
+    color:   blue;
+    font-size: 43px;
+}
+.music_project{
+    padding-top: 22px;
+}
+
+.img_block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img_block img{
+    width: 250px;
+}
+
+.music_project audio{
+    margin-top: 20px;
+}
+.movie h1{
+    color: darkgoldenrod;
+
+}
+
+.movie video{
+    
+}
